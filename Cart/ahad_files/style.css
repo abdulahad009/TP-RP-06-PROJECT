@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(44, 25, 45, 0.959);
+    font-family: "Playfair Display", serif;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 10% 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-content{
+    padding: 10px 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfume-name :first-child{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: -20px;
+}
+
+.card-content h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: -5px;
+}
+
+.card-img{
+    background-color: black;
+    height: 380px;
+}
+.card-img img{
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.perfume-price{
+    display: flex;
+    align-items: center;
+    margin: -10px 0px;
+}
+
+.perfume-price :first-child{
+    font-size: 30px;
+    color: rgb(2, 104, 65);
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.perfume-price :nth-child(2){
+    font-size: 15px;
+    padding-left: 15px;
+    text-decoration: line-through;
+    color: grey;
+}
+.card-content button ion-icon{
+    font-size: 18px;
+    padding-right: 8px;
+    font-weight: bolder;
+}
+.card-content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    color: white;
+    background: rgb(2, 104, 65);
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
