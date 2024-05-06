@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+.card-body {
+    background-color: rgb(146, 146, 231);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.card-btn button {
+    color: black;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.btn{
+    background-color: yellowgreen;
+    
+}
+.btn1{
+    background-color: blanchedalmond;
+}
+.btn2{
+    background-color: rgba(234, 226, 10, 0.886);
+}
+
