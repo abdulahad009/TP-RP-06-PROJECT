@@ -27,7 +27,20 @@ button{
     color: white;
     border-radius: 1px;
     font-size: 19px;
+    cursor: pointer;
     border: none;
     outline: none;
     
+}
+.text ul{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
 }
